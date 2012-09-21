@@ -1,0 +1,157 @@
+{
+    "id": "test1",
+    "nodes":
+    [
+        {"name": "topic1",
+         "size": 120,
+         "sentiment_dist":
+             {"positive": 32,
+              "negative": 24,
+              "neutral": 44
+              }
+         },
+        {"name": "topic2",
+         "size": 42,
+         "sentiment_dist":
+             {"positive": 93,
+              "negative": 6,
+              "neutral": 1
+              }
+         },
+        {"name": "topic3",
+         "size": 57,
+         "sentiment_dist":
+             {"positive": 0,
+              "negative": 100,
+              "neutral": 0
+              }
+         },
+        {"name": "topic4",
+         "size": 26,
+         "sentiment_dist":
+             {"positive": 33,
+              "negative": 33,
+              "neutral": 34
+              }
+         },
+        {"name": "topic5",
+         "size": 32,
+         "sentiment_dist":
+             {"positive": 34,
+              "negative": 33,
+              "neutral": 33
+              }
+         },
+        {"name": "topic6",
+         "size": 87,
+         "sentiment_dist":
+             {"positive": 0,
+              "negative": 100,
+              "neutral": 0
+              }
+         },
+        {"name": "topic7",
+         "size": 126,
+         "sentiment_dist":
+             {"positive": 34,
+              "negative": 33,
+              "neutral": 33
+              }
+         },
+		  {"name": "topic8",
+         "size": 45,
+         "sentiment_dist":
+             {"positive": 32,
+              "negative": 24,
+              "neutral": 44
+              }
+         },
+		  {"name": "topic9",
+         "size": 30,
+         "sentiment_dist":
+             {"positive": 20,
+              "negative": 20,
+              "neutral": 60
+              }
+         },
+		  {"name": "topic10",
+         "size": 80,
+         "sentiment_dist":
+             {"positive": 32,
+              "negative": 24,
+              "neutral": 44
+              }
+         },
+		  {"name": "topic11",
+         "size": 85,
+         "sentiment_dist":
+             {"positive": 32,
+              "negative": 24,
+              "neutral": 44
+              }
+         }
+    ],
+    "edges":
+    [
+        {"node_pair":
+             {"node1": "topic1",
+              "node2": "topic7",
+              "strength": "medium"
+              }
+         },
+        {"node_pair":
+             {"node1": "topic1",
+              "node2": "topic4",
+              "strength": "low"
+              }
+         },
+        {"node_pair":
+             {"node1": "topic1",
+              "node2": "topic5",
+              "strength": "low"
+              }
+         },
+        {"node_pair":
+             {"node1": "topic5",
+              "node2": "topic6",
+              "strength": "medium"
+              }
+         },
+        {"node_pair":
+             {"node1": "topic7",
+              "node2": "topic4",
+              "strength": "low"
+              }
+         },
+        {"node_pair":
+             {"node1": "topic7",
+              "node2": "topic11",
+              "strength": "medium"
+              }
+         },
+		 {"node_pair":
+             {"node1": "topic3",
+              "node2": "topic10",
+              "strength": "high"
+              }
+         },
+		 {"node_pair":
+             {"node1": "topic2",
+              "node2": "topic9",
+              "strength": "medium"
+              }
+         },
+		 {"node_pair":
+             {"node1": "topic5",
+              "node2": "topic8",
+              "strength": "high"
+              }
+         },
+		 {"node_pair":
+             {"node1": "topic1",
+              "node2": "topic11",
+              "strength": "low"
+              }
+         }
+    ]
+}

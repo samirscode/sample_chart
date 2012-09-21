@@ -1,0 +1,101 @@
+{
+    "id": "test1",
+    "nodes":
+    [
+        {"name": "topic1",
+         "size": 195,
+         "sentiment_dist":
+             {"positive": 32,
+              "negative": 24,
+              "neutral": 44
+              }
+         },
+        {"name": "topic2",
+         "size": 42,
+         "sentiment_dist":
+             {"positive": 93,
+              "negative": 6,
+              "neutral": 1
+              }
+         },
+        {"name": "topic3",
+         "size": 57,
+         "sentiment_dist":
+             {"positive": 0,
+              "negative": 100,
+              "neutral": 0
+              }
+         },
+        {"name": "topic4",
+         "size": 26,
+         "sentiment_dist":
+             {"positive": 33,
+              "negative": 33,
+              "neutral": 34
+              }
+         },
+        {"name": "topic5",
+         "size": 32,
+         "sentiment_dist":
+             {"positive": 34,
+              "negative": 33,
+              "neutral": 33
+              }
+         },
+        {"name": "topic6",
+         "size": 87,
+         "sentiment_dist":
+             {"positive": 0,
+              "negative": 100,
+              "neutral": 0
+              }
+         },
+        {"name": "topic7",
+         "size": 126,
+         "sentiment_dist":
+             {"positive": 34,
+              "negative": 33,
+              "neutral": 33
+              }
+         }
+    ],
+    "edges":
+    [
+        {"node_pair":
+             {"node1": "topic1",
+              "node2": "topic7",
+              "strength": "medium"
+              }
+         },
+        {"node_pair":
+             {"node1": "topic1",
+              "node2": "topic4",
+              "strength": "low"
+              }
+         },
+        {"node_pair":
+             {"node1": "topic1",
+              "node2": "topic5",
+              "strength": "high"
+              }
+         },
+        {"node_pair":
+             {"node1": "topic5",
+              "node2": "topic6",
+              "strength": "medium"
+              }
+         },
+        {"node_pair":
+             {"node1": "topic7",
+              "node2": "topic4",
+              "strength": "high"
+              }
+         },
+        {"node_pair":
+             {"node1": "topic7",
+              "node2": "topic2",
+              "strength": "low"
+              }
+         }
+    ]
+}

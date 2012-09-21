@@ -1,0 +1,41 @@
+<!--
+ * A class to Draw custom social chart using hemispheres and edges.
+ * @author Mohamed Samir <mohamedsamir216@gmail.com>
+ * @Date Started June 24 2012 
+ * @license Client Free to use it and distribute it for commercial purposes
+-->
+<html>
+	<head>
+		<title>Social Topics Chart Drawer</title>
+		<!-- ______________________________________________Style Sheets______________________________________________-->
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+
+		<!-- ______________________________________________JS SCRIPTS________________________________________________-->
+		<script type="text/javascript" src="js/lib/underscore-min.js"></script>
+		<SCRIPT TYPE="text/javascript" src="js/lib/raphael-min.js"></SCRIPT>
+		<SCRIPT TYPE="text/javascript" src="js/lib/jquery.min.js"></SCRIPT>
+		<SCRIPT TYPE="text/javascript" src="js/lib/rgbcolor.js"></SCRIPT>
+		<SCRIPT TYPE="text/javascript" src="js/lib/canvg.js"></SCRIPT>
+		<SCRIPT type="text/javascript" src="js/main.js"></SCRIPT>
+		<SCRIPT type="text/javascript" src="js/engine.js"></SCRIPT>
+		
+	</head>
+
+	<body>
+		<input type="hidden" id="JSONDataContainer" value=""/>
+		<div  style="margin-left: auto;margin-right: auto;display: block;width: 575px;" id="dataIn">
+			<h4 style="color:gray">Put JSON data here:</h4>
+			<textarea id="JSONBox" name="JSON_data" id="JSON_data" value=""></textarea>
+			<a style="cursor: pointer;float: left;margin-left: 389px;margin-top: 8px;" id="drawChart" href="javascript:;" class="chartDownload">
+				Draw Chart
+			</a>
+			<h4  class="error" id="errorMsgs">Invalid JSON Input, Please re-check.</h4>
+		</div>
+		
+		<div  id="holder"></div>
+		<canvas style="display:hidden" id="canvas" ></canvas> 
+		<img id="download" src="" style="display:none"></img>
+		
+
+	</body>
+</html>
